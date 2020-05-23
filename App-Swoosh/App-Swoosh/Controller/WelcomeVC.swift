@@ -8,13 +8,19 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class WelcomeVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+     //   performSegue(withIdentifier: , sender: <#T##Any?#>)
     }
-
+    
+    @IBAction func backButtonTapped(segue: UIStoryboardSegue) {
+           
+    }
+    
+   
 
 }
 
