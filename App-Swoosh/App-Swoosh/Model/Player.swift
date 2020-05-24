@@ -9,5 +9,6 @@
 import Foundation
 
 struct Player {
-    var desiredLeageue: String? 
+    
+    var desiredLeageue: String!
 }
